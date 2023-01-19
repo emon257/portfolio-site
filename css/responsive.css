@@ -1,0 +1,17 @@
+
+/* Nav bar responsive design */
+
+@media(min-width:320px) and (max-width:991px){
+    nav #Custom_nav ul li a {
+        padding: 10px 0px;
+        border-bottom: 1px solid #353535;
+        display: inline-block;
+    }
+
+}
+
+/* Navbar responsive design */
+
+/* Banner responsive design */
+
+/* Banner responsive design */

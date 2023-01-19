@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+:root {
+    --main_font: 'Poppins', sans-serif;
+    --second_font: 'PT Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+
+#banner .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align_center {
+    align-items: center;
+}
+
+/* Common Css ends here */
+
+/* Nav bar design start's here */
+nav #Custom_nav ul li a{
+    color: #353535;
+    text-transform: uppercase;
+    font-family: var(--main_font);
+    font-size: 15px;
+    font-weight: 500;
+    padding: 25px 25px;
+
+}
+
+nav .navbar_button{
+    border: none;
+}
+/* Nav bar design Ends here */
+
+
+
+/* banner design starts here  */
+#banner {
+    height: 700px;
+}
+
+#banner .banner_txt {
+    position: relative;
+}
+
+#banner .banner_txt h1 {
+    font-family: var(--second_font);
+    font-weight: 700;
+    font-size: 64px;
+    color: #353535;
+    padding-bottom: 25px;
+}
+
+#banner .banner_txt p {
+    font-family: var(--main_font);
+    font-weight: 400;
+    font-size: 20px;
+    color: #353535;
+    margin-bottom: 90px;
+}
+
+
+#banner .banner_txt .banner_btn  a {
+    font-family: var(--main_font);
+    font-weight: 600;
+    font-size: 20px;
+    color: #353535;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    padding: 25px 20px;
+    transition: 0.35s;
+    display: inline-block;
+    
+}
+
+
+#banner .banner_txt .banner_btn:hover a{
+    background-color: #FFCC00;
+    color: #FFFFFF;
+    border: none;
+}
+
+#banner .banner_txt .social_links{
+    position: absolute;
+    bottom: -180px;
+}
+
+#banner .banner_txt .social_links p{
+    font-family: var(--main_font);
+    font-weight: 500;
+    font-size: 22px;
+    color: #353535;
+}
+
+#banner .banner_txt .social_links ul{
+    position: absolute;
+    bottom: 90px;
+    left: 135px;
+    width: 400px;
+}
+
+#banner .banner_txt .social_links ul li{
+    display: inline-block;
+}
+
+#banner .banner_txt .social_links ul li a{
+    color: #000000;
+    font-size: 30px;
+    margin: 0 15px;
+    background-color: #F4F3F3;
+    border-radius: 50%;
+    padding: 15px 15px;
+    text-align: center;
+    transition: 0.35s;
+}
+
+#banner .banner_txt .social_links ul li:hover a{
+    background-color: #353535;
+    color: #FFFFFF;
+}
+
+#banner .banner_txt  .mouse_icon a{
+    position: absolute;
+    bottom: 0;
+    left: 525px;
+    font-size: 40px;
+    color: #686868;
+
+}
+
+/* banner design ends here */
